@@ -3,15 +3,18 @@ import { CommonModule } from "@angular/common";
 
 import { HeroComponent } from "./hero/hero.component";
 import { ListComponent } from "./list/list.component";
+import { HeroPageComponent } from "./pages/hero/hero-page.component";
 
 @NgModule({
     declarations: [
         HeroComponent,
-        ListComponent
+        ListComponent,
+        HeroPageComponent
     ],
     exports: [
         HeroComponent,
-        ListComponent
+        ListComponent,
+        HeroPageComponent
     ],
     imports:[
         CommonModule
